@@ -1,6 +1,6 @@
 import { cn } from '@/lib/utils'
 
-export const Logo = ({ className }: { className?: string }) => {
+export const Logo = () => {
     return (
         <h3 className='font-bold'>Fangki.dev</h3>
     )

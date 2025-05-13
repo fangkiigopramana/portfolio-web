@@ -6,7 +6,7 @@ import { projects } from '@/lib/data'
 import IntegrationCard from './card'
 
 export default function Projects() {
-    const [visibleCount, setVisibleCount] = React.useState(3)
+    const [visibleCount] = React.useState(3)
 
     const filteredIntegrations = projects
 

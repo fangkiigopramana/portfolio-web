@@ -10,11 +10,11 @@ export default function ContactSection() {
         <section className="py-32" id="contact">
             <div className="mx-auto max-w-3xl px-8 lg:px-0">
                 <h1 className="text-center text-4xl font-semibold lg:text-5xl">Contact Sales</h1>
-                <p className="mt-4 text-center">We'll help you find the right plan and pricing for your business.</p>
+                <p className="mt-4 text-center">We will help you find the right plan and pricing for your business.</p>
 
                 <Card className="mx-auto mt-12 max-w-lg p-8 shadow-md sm:p-16">
                     <div>
-                        <h2 className="text-xl font-semibold">Let's get you to the right place</h2>
+                        <h2 className="text-xl font-semibold">Lets get you to the right place</h2>
                         <p className="mt-4 text-sm">Reach out to our sales team! We’re eager to learn more about how you plan to use our application.</p>
                     </div>
 
@@ -46,7 +46,7 @@ export default function ContactSection() {
                         <div>
                             <Label htmlFor="website">Company Website</Label>
                             <Input type="url" id="website" />
-                            <span className="text-muted-foreground inline-block text-sm">Must start with 'https'</span>
+                            <span className="text-muted-foreground inline-block text-sm">Must start with https</span>
                         </div>
 
                         <div>
