@@ -5,7 +5,7 @@ import { ReactNode } from 'react'
 export default function Services() {
     return (
         <section className="py-8 md:py-16 dark:bg-transparent" id='services'>
-            <div className="@container mx-auto max-w-5xl px-6">
+            <div className="@container mx-auto max-w-5xl">
                 <div className="text-center">
                     <h2 className="text-balance text-4xl font-semibold lg:text-5xl">What I Offer</h2>
                     <p className="mt-4 text-wrap">Offering responsive web design and development services, specializing in creating intuitive user interfaces with HTML, CSS, PHP, JavaScript, ReactJs, NodeJs, Bootstrap, TailwindCSS, and UI/UX designing in Web Development using Laravel/NextJS</p>

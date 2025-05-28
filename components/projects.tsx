@@ -15,7 +15,7 @@ export default function Projects() {
     return (
         <section id='projects'>
             <div className="py-32">
-                <div className="mx-auto max-w-5xl px-6">
+                <div className="mx-auto max-w-5xl">
                     <div className="text-start">
                         <h2 className="text-balance text-3xl font-semibold md:text-4xl">My Latest Projects</h2>
                         <p className="text-muted-foreground mt-6">Explore some of my recent projects showcasing seamless integrations with popular platforms and tools.</p>
