@@ -20,7 +20,7 @@ export default function About() {
             Welcome to my portfolio website! Here, I showcase my projects, skills, and experiences as a web developer passionate about building modern, user-friendly applications.
           </p>
           <p>
-            Explore my work, learn more about my background, and feel free to get in touch if you'd like to collaborate or discuss new opportunities.
+            Explore my work, learn more about my background, and feel free to get in touch if you like to collaborate or discuss new opportunities.
           </p>
         </div>
       </div>
