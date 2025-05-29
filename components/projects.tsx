@@ -30,7 +30,6 @@ export default function Projects() {
                                     category={integration.category}
                                     link={integration.link}
                                     description={integration.description}>
-                                    {/* {integration.component} */}
                                 </IntegrationCard>
                             ))}
                         </div>

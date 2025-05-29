@@ -44,7 +44,7 @@ export default function Projects() {
                                 </div>
                             ) : (
                                 <div className="flex flex-col items-center justify-center mt-6">
-                                    <Image src={NotFoundImage} alt='Not Found Image' width={200} />
+                                    <Image src={NotFoundImage} alt='Not Found Image' width={200} unoptimized />
                                     <p className="text-center text-muted-foreground">No Projects Found.</p>
                                 </div>
                             )}
