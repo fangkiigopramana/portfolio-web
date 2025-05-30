@@ -26,7 +26,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <HeroHeader />
-          <div className="mx-24">
+          <div className="px-12 md:mx-24 ">
           {children}
           </div>
           <FooterSection/>
