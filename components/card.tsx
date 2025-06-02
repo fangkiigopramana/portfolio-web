@@ -4,6 +4,7 @@ import { Card } from "./ui/card";
 import { Button } from "./ui/button";
 import { ChevronRight } from "lucide-react";
 import { motion } from "motion/react";
+import { Image } from 'next/image';
 
 interface IntegrationCardProps {
   name: string;
@@ -19,9 +20,12 @@ const IntegrationCard: React.FC<IntegrationCardProps> = ({
   link = "/",
 }) => {
   return (
-    <motion.div whileHover={{ scale: 1.1, rotate: -8 }} whileTap={{ scale: 0.9 }}>
+    <motion.div whileHover={{ scale: 1.05, rotate: 4 }} whileTap={{ scale: 0.9 }}>
       <Card className="p-6">
         <div className="relative">
+          <motion.div className="mb-4 h-full w-full block rounded-lg" whileHover={{ scale: 1.4  }} whileTap={{ scale: 0.9 }}>
+            <img src="https://pontas.id/wp-content/uploads/2018/10/news-895x430.jpg" alt="" />
+          </motion.div>
           <div className="space-y-2 py-6">
             <h3 className="text-base font-bold">{name}</h3>
             <div className="flex items-center gap-2">
